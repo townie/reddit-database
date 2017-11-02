@@ -31,7 +31,7 @@ Subreddits: 69600
 Relations: 301565
 
 
-FAQ:
+### FAQ:
 
 Q: Why would you use MongoDB for storing a Graph?
 A: Because the crawler is running 24/7 on a heroku worker and the MongoDB add-on has a lot of space (compared to Heroku Postgres). Also, it's free just perfect for my budget.
