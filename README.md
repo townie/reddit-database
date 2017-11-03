@@ -24,6 +24,15 @@ On each document in the **relations** collection you'll find the following field
   * The **_id** is a hash of the concatenation sub_a/sub_b.
   * The date and time when this relations was found is stored in a **timestamp**.
 
+### Database: v2
+Date: November 3, 2017
+
+Subreddits: 54151
+Relations: 255617
+
+This time i've decided to NOT analyze the wiki of subreddits with less than 10000 subscribers. I've found out that many small subreddits had really big wiki pages with a lot of related small subreddits. I also excluded any subreddit with 'reddit' in it's name (with the exception of askreddit).
+
+
 ### Database: v1
 Date: November 2, 2017
 
